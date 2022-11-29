@@ -29,7 +29,7 @@ export const AppRouter = () => {
                 
 
 
-                <Route path='*' element={ <h1>No se encontró la ruta</h1> } />
+                <Route path='*' element={ <CharactersPage /> } />
             </Routes>
         </>
     )
